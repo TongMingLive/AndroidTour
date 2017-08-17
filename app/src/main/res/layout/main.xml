@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable ="true"
+    android:focusableInTouchMode ="true">
+
+    <SearchView
+        android:id="@+id/main_select_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:queryHint="请输入景点/酒店/美食"
+        android:iconifiedByDefault="false"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/main_pts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:textColor="@color/colorAccent" />
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

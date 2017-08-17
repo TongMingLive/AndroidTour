@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">旅游小助手</string>
+    <string name="title_home">主页</string>
+    <string name="title_explore">地图</string>
+    <string name="title_dashboard">更多</string>
+    <drawable name="time_correct_normal">#247fed</drawable>
+    <drawable name="time_correct_pressed">#105fff</drawable>
+</resources>
